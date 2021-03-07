@@ -1,23 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Poppins", sans-serif;
-    position: relative;
-    height: 100vh;
+    box-sizing: border-box;
 }
-.text {
+h2 {
     font-family: 'Inconsolata', monospace;
     color: 333333;
+    font-size: 24px;
+    font-weight: 700;
+}
+header {
+    margin-bottom: 64px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+footer {
+    margin-top: 64px;
+}
+.container {
+    padding: 25px;
 }
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    max-width: 400px;
+    max-width: 100%;
     font-family: 'Space Mono', monospace;
-    padding: 10px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 48px;
 }
 .content-child{
     flex:1;
@@ -25,9 +40,12 @@ h1 {
 }
 .content-child > p {
     font-size: 18px;
+    margin-bottom: 30px;
 }
 .illustration {
     align-items: center;
+    min-width: 80%;
+    max-width: 100%;
 }
 img {
     width: 300px;
@@ -36,16 +54,14 @@ button {
     margin-top: 20px;
     background: #333333;
     color: #FFFFFF;
-    padding: 12px 24px;
+    padding: 23px 43px;
     font-size: 14px;
     font-family: 'Space Mono', monospace;
 }
 footer {
-    position: absolute;
     width: 100%;
     text-align: center;
     font-size: 14px;
-    bottom: 20px;
     line-height: 17.07px;
     font-family: 'Montserrat', sans-serif;
 }
