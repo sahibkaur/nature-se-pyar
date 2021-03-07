@@ -46,9 +46,11 @@ footer {
 .content-child > p {
     font-size: 18px;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: normal;
+    font-style: normal;
     line-height: 26.66px;
     letter-spacing: -3.5%;
+    color: #4F4F4F;;
 }
 .illustration {
     align-items: center;
@@ -67,6 +69,7 @@ button {
     font-family: 'Space Mono', monospace;
     letter-spacing: -3.5%;
     border: none;
+    font-weight: bold;
 }
 footer {
     width: 100%;
