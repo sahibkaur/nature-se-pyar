@@ -1,5 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
+    position: relative;
+    height: 100vh;
 }
 .text {
     font-family: 'Inconsolata', monospace;
@@ -7,16 +9,43 @@ body {
 }
 .content {
     display: flex;
-    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    max-width: 400px;
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+}
+h1 {
+    font-size: 40px;
 }
 .content-child{
     flex:1;
+    text-align: left;
+}
+.content-child > p {
+    font-size: 18px;
+}
+.illustration {
+    align-items: center;
 }
 img {
-    width: 400px;
+    width: 300px;
 }
 button {
+    margin-top: 20px;
     background: #333333;
     color: #FFFFFF;
     padding: 12px 24px;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    bottom: 20px;
+    line-height: 17.07px;
+    font-family: 'Montserrat', sans-serif;
 }
