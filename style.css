@@ -66,6 +66,7 @@ button {
     font-size: 14px;
     font-family: 'Space Mono', monospace;
     letter-spacing: -3.5%;
+    border: none;
 }
 footer {
     width: 100%;
