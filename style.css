@@ -75,10 +75,12 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 14px;
+    font-weight: 500;
     line-height: 17.07px;
     font-family: 'Montserrat', sans-serif;
     color: #BDBDBD;
 }
 a {
     color: #BDBDBD;
+    font-weight: 800;
 }
