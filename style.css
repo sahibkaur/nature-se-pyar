@@ -15,7 +15,7 @@ body {
     font-weight: bold;
     color: #333333;
 }
-h2 {
+.error-heading {
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
     line-height: 25.18px;
@@ -117,9 +117,6 @@ a {
     footer,header {
         margin:0;
     }
-}* {
-    margin:0;
-    padding: 0;
 }
 h1 {
     font-family: 'PT Serif', serif;
@@ -136,8 +133,10 @@ h2 {
 main {
     padding: 12px;
 }
-.intro {
+.intro, .intro-heading, .card {
     font-family: 'Poppins', sans-serif;
+}
+.intro {
     margin-top: 38px;
 }
 .heading {
@@ -148,8 +147,34 @@ main {
     width: 80%;
 }
 .card {
-    height: 260px;
+    width: 170px;
+    height: 200px;
+    position: relative;
 }
 .dp {
-    width: 150px;
+    width: 80%;
+    
+}
+.cards {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.role {
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+.name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.cards div:nth-child(2n) {
+    margin-top: 80px;
 }
